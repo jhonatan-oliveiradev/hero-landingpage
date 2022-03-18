@@ -13,12 +13,14 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #F8FDFF;
+        font-family: 'Poppins', sans-serif;
     }
 
     button {
         background-color: none;
         border: none;
         outline: none;
+        cursor: pointer;
     }
 
     a {
