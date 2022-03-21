@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  position: absolute;
-  top: 105px;
-  left: 80px;
+  position: relative;
+  top: 185px;
+  left: 20px;
   background-color: #daaaff;
   color: #fff;
   width: 154px;
@@ -59,7 +59,7 @@ export const Container = styled.div`
       border: 1px solid rgba(255, 255, 255, 0.5);
       transform: rotate(-72deg);
       top: -50px;
-        left: 45px;
+      left: 45px;
     }
   }
 `;
