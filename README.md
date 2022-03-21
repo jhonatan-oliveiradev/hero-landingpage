@@ -9,6 +9,6 @@
 5. Surge SH
 
 
-Link to website: <a href="http://hero-project-jhonatang.surge.sh/" target="_blank">Click Here</a>
+Link to this project: <a href="http://hero-project-jhonatang.surge.sh/" target="_blank">Click Here</a>
 
 Thank you!!!
