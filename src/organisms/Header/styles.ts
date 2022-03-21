@@ -1,10 +1,21 @@
 import styled from "styled-components";
 
 export const Box = styled.header`
-  margin-top: 30px;
-  height: 42px;
+  padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  opacity: 0;
+  animation: showHeader 1s linear forwards;
+
+  @keyframes showHeader {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 `;

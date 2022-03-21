@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   position: relative;
   top: 185px;
-  left: 20px;
+  left: -60px;
   background-color: #daaaff;
   color: #fff;
   width: 154px;
@@ -12,6 +12,8 @@ export const Container = styled.div`
   text-align: left;
   padding: 11px;
   overflow: hidden;
+  opacity: 0;
+  animation: showActivity .5s linear forwards;
 
   small {
     font-size: 15px;
@@ -61,5 +63,15 @@ export const Container = styled.div`
       top: -50px;
       left: 45px;
     }
+  }
+
+  @keyframes showActivity {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+      left: 0;
   }
 `;
